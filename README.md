@@ -32,9 +32,17 @@ A idea sharing space
         1git stash apply，这种恢复方式恢复后stash内容并不删除，需要使用git stash drop来删除。
         2另一种方式是使用git stash pop，恢复的同时把stash内容也删除了。
 
+#### check logs
+    git log --stat 显示文件更改列表
+    git log -p filepath 查看某个文件的详细修改
+    git log -L start,end:filepath 查看某个文件某几行范围内的修改记录
+    git log --stat commitId 或者 git show --stat commitId 查看某一次提交的文件修改列表
+    git log --graph --pretty=oneline --abbrev-commit  树形结构图 分支合并图、一行显示、提交校验码缩略显示
 
 ## stocks
 
 Experience of stocks
 
 add new case : test-401
+
+test test-404
