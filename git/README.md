@@ -70,6 +70,11 @@
     查看远程库的详细信息git remote -v
     把master分支推送到远程库对应的远程分支上git push origin master
 
+# set vimdiff replace with git dff
 git config --global diff.tool vimdiff
 git config --global difftool.prompt false
 git config --global alias.d difftool
+
+# set local git acount
+git config --global user.mail aaa@xxxx
+git config --global user.name yyyyy
